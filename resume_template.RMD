@@ -51,7 +51,8 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F, fig.pos = "!H", fig.he
 options(scipen=999)
 
 
-sidebar_color <- '#d5f0f7'
+sidebar_color <- '#A2E4B8'
+font_color <- '#36454f'
 
 ```
 
@@ -88,7 +89,7 @@ build_skill_bars <- function(skill_data, section_title) {
      
       coord_flip() + # turn vertical bars into horizontal bars 
     
-      geom_text(aes(label = skill,  y = 0.25), hjust = 0, size = 12, color = "white") + # text that overlays software name over the bar 
+      geom_text(aes(label = skill,  y = 0.25), hjust = 0, size = 12, color = 'black') + # text that overlays software name over the bar 
     
       expand_limits(y = c(0,max(skill_data[skill_data$section == section_title,]$level))) + # make it so that the best skill is the biggest bar that occupies the entere width
     

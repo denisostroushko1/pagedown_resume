@@ -15,7 +15,7 @@ body {
   font-family: 'Gotham Book', sans-serif;
   font-weight: 300;
   line-height: 1.3;
-  color: #444;
+  color: #36454f;
 }
 
 /* Give headers playfair font */
@@ -23,7 +23,7 @@ h1,
 h2,
 h3 {
   font-family: 'Gotham Book', sans-serif;
-  color: #4234c7;
+  color: #36454f;
 }
 
 /* When in PDF export mode make sure superscripts are nice and small and italic */
@@ -46,10 +46,10 @@ sup {
 /* Customize some of the sizing variables */
 :root {
   --sidebar-width: 12rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #d5f0f7; /* Make sidebar blue */
+  --sidebar-background-color: #A2E4B8; /* Make sidebar blue */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
-  --decorator-border: 2px solid #0fa4f5; /* Make timeline a blue as well*/
+  --decorator-border: 2px solid #20C073; /* Make timeline a blue as well*/
 }
 
 .details .place {

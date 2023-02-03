@@ -1,0 +1,195 @@
+---
+title: "Resume"
+author: ""
+output:
+  pagedown::html_resume:
+    css: 
+      - ex.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
+      - resume               # DEFAULT FILE            
+    self_contained: true
+    number_sections: no
+  html_document:
+    df_print: paged
+    toc: yes
+---
+
+```{r setup, include = FALSE, warning = FALSE, message = FALSE}
+
+#     remotes::install_github("mitchelloharawild/icons")
+
+#Load the good stuff
+library(tidyverse)
+library(pagedown)
+library(icons)
+library(knitr)
+library(ggthemes)
+
+#Token
+
+#Working directory for .RMD
+knitr::opts_knit$set(echo = TRUE,
+                     root.dir = rprojroot::find_rstudio_root_file())
+
+#Controlling figure output in markdown
+knitr::opts_chunk$set(
+#  fig.height =   
+  fig.width = 6,
+#  fig.asp = .5,
+#  out.width = "90%",
+#  out.height = 
+ fig.align = "center",
+  cache = FALSE
+)
+
+#Set Theme for ggplot2
+theme_set(theme_bw() + theme(plot.title = element_text(hjust = 0.5), legend.position = "bottom"))
+
+#Set Scientific notation output for knitr
+options(scipen = 999)
+
+knitr::opts_chunk$set(echo = F, message = F, warning = F, fig.pos = "!H", fig.height=4, fig.width=7, fig.align='center')
+options(scipen=999)
+
+
+sidebar_color <- '#d5f0f7'
+
+```
+
+Aside
+====================================
+
+```{r echo = FALSE, out.width = "100%", eval = T}
+include_graphics("/Users/denisostroushko/Desktop/pagedown_resume/High Res.jpg") 
+```
+
+Contact Info
+------------------------------------  
+
+- <i class="fa fa-tablet-alt"></i> [Gmail](mailto:denisostroushko1@gmail.com)
+- <i class="fa fa-linkedin-square"></i> [LinkedIn](https://www.linkedin.com/in/denis-ostroushko/)
+- <i class="fa fa-sync"></i> [Website](https://PASTE MY LINK)
+- <i class="fa fa-github"></i> [Github](https://github.com/denisostroushko1)
+
+Technical Skills 
+------------------------------------  
+
+```{r}
+
+build_skill_bars <- function(skill_data, section_title) {
+  skill_data %>%   # take in the data that says what software I use and what rating I give it
+    filter(section == section_title) %>% # seelct only tech skills 
+                                          # for now this is an irrelevant filter since all I included were tech skills  
+    
+    ggplot(aes(x= reorder(skill, level), y = 5)) + # start makjng rhe plot 
+    
+      geom_col(fill = sidebar_color) + # use columns, which will turn into the cards 
+    
+      geom_col(aes(x= reorder(skill, level), y = level), fill = "darkgrey") + 
+     
+      coord_flip() + # turn vertical bars into horizontal bars 
+    
+      geom_text(aes(label = skill,  y = 0.25), hjust = 0, size = 12, color = "white") + # text that overlays software name over the bar 
+    
+      expand_limits(y = c(0,max(skill_data[skill_data$section == section_title,]$level))) + # make it so that the best skill is the biggest bar that occupies the entere width
+    
+      labs(x = NULL,
+           y = NULL) + # no names or anything, we only want the bars 
+      
+      theme_void() + # the most minimal theme possible 
+      
+      theme(
+        panel.background = element_rect(fill = sidebar_color, colour = NA), # fill the background with color of choice and remove the balck outline 
+        plot.background  = element_rect(fill = sidebar_color, colour = NA) # same here 
+      ) 
+}
+
+```
+
+
+```{r}
+
+# some person make an example from Nick's resume; will ustilize this example to crete skill bars 
+# https://www.mattleary.com/blog/2020-01-04-pagedown_resume/
+
+resume_data <- 
+  data.frame(
+    rbind(
+      c("Tech", "R/Rstudio", 5),
+      c("Tech", "SAS/SQL", 4),
+      c("Tech", "Git", 3),
+      c("Tech", "Python", 2),
+      c("Tech", "AWS S3", 2)
+    )
+  ) # this data set is simply the 'data' for the bars that will show my skills
+    # actual score does not matter, as far as I udnerstand from testing differnet values 
+    # what matters is the relevant score of each given skill to the max score defined in the data 
+
+colnames(resume_data) <- c("section", "skill", "level")
+
+resume_data$level <- as.numeric(resume_data$level)
+
+# use function from a previous plot to create a ggplot that actually creates a 'plot' under the picture 
+build_skill_bars(
+  skill_data = resume_data, 
+  section_title = "Tech"
+  )
+
+```
+
+$~$  
+<p style="text-align:center; color:#C8C8C8">*Document powered by* `pagedown`</p> 
+
+Main
+====================================
+
+Denis Ostroushko {#title}
+------------------------------------
+
+Education 
+------------------------------------
+
+### University of Minnesota  
+
+*MS Biostatistics* 3.815 GPA
+
+Minneapolis, MN
+ 
+Present - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
+
+### University of Minnesota - Morris 
+
+*BA Mathematics, Statistics* 3.43 GPA
+
+Morris, MN 
+
+2019 - 2015 
+
+Selected Positions 
+------------------------------------
+
+### Research Assistant  
+
+$~$  
+
+University of Minnesota  
+
+Present - 2020  
+
+<font size=2>**STRIVE Clinical Trial**</font> (2022)  
+Created an Augmented Inverse Probability Weighted estimator that increased efficiency & power of interim analyses in COVID trials.  
+
+
+Communication Experience
+------------------------------------
+
+### Presentations & `r  Publications  
+
+$~$  
+
+$~$  
+
+2021 - 2016 
+
+- *A Random Covariance Model for Task-Based Neurofeedback Study of Adolescent Depression* (JSM, 2022)
+
+

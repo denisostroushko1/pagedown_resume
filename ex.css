@@ -9,6 +9,31 @@ Marker Felt	 FROM FANTASY
 
 */
 
+/* WORKING WITH HYPERLINKS */ 
+
+    /* unvisited link */
+    a:link {
+      color: #36454f;
+    }
+    
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+    /* mouse over link */
+    a:hover {
+      color: black;
+    }
+    
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+    
+    /* change foint size */
+    a {font-size: 14px}
+
+
 
 /* Main text is monserrat*/
 body {

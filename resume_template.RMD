@@ -59,10 +59,13 @@ font_color <- '#36454f'
 Aside
 ====================================
 
-```{r echo = FALSE, out.width = "100%", eval = T}
-include_graphics("/Users/denisostroushko/Desktop/pagedown_resume/High Res.jpg") 
+```{r echo = FALSE, out.width = "100%", eval = F}
+include_graphics("/Users/denisostroushko/Desktop/pagedown_resume/Pastel Green Graph.png") 
 ```
 
+```{r echo = FALSE, out.width = "100%"}
+include_graphics("/Users/denisostroushko/Desktop/pagedown_resume/myplot.png") 
+```
 Contact Info
 ------------------------------------  
 

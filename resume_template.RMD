@@ -140,6 +140,23 @@ build_skill_bars(
 
 ```
 
+Analytical Skills
+------------------------------------
+
+Statistical Modeling and Inference
+Causal Inference 
+Predictive Modeling 
+Non-parametric Methods
+Analysis of Estimators 
+Big Claims and Insurance Data
+
+Data Sceince 
+------------------------------------
+Static Flexdashboards 
+Interactive ShinyApps
+`ggplot` visualizations 
+Source data-to-report pipelines 
+
 $~$  
 <p style="text-align:center; color:#000000">*Document powered by* `pagedown`</p> 
 

@@ -214,8 +214,16 @@ Morris, MN
 
 - Managed scripts to produce publication materials. Presented results of medical cost analysis for truck drivers with OSA as a poster. Helped develop a bootstrap simulation to estimate variance of cost difference. 
 
-Publications
+Communication Experience {data-icon=book}
 ------------------------------------
 
+### Publications and Software
 
+$~$
 
+$~$
+
+Present - 2020
+
+- ["ShinyApp - Market Analysis.(2021)"](https://coingalaxy.shinyapps.io/super_secret_db/)
+- ["The Pre-Registry Commercial Driver Medical Examination: Screening Sensitivity and Certification Lengths for Two Safety-Related Medical Conditions.(2019)"](https://pubmed.ncbi.nlm.nih.gov/31977920/)

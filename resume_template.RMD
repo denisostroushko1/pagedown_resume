@@ -23,6 +23,7 @@ library(pagedown)
 library(icons)
 library(knitr)
 library(ggthemes)
+library(fontawesome)
 
 #Token
 
@@ -51,7 +52,9 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F, fig.pos = "!H", fig.he
 options(scipen=999)
 
 
-sidebar_color <- '#A2E4B8'
+# older more saturated color: #A2E4B8
+
+sidebar_color <- '#dcf7e5' # make sure that this color mathces 'sidebar-background-color' in the CSS file
 font_color <- '#36454f'
 
 ```
@@ -59,8 +62,41 @@ font_color <- '#36454f'
 Aside
 ====================================
 
-```{r echo = FALSE, out.width = "100%", eval = F}
-include_graphics("/Users/denisostroushko/Desktop/pagedown_resume/Pastel Green Graph.png") 
+```{r create a plot for top corner, echo = FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+
+
+library(igraph)
+library(wesanderson)
+
+set.seed(123)  # set the seed for reproducibility
+
+# Create the graph with 30 nodes
+g <- sample_gnp(30, 0.5)
+
+# Get the 'Royal2' color palette
+colors <- wes_palette("BottleRocket2")
+
+# Assign a color to each node randomly
+V(g)$color <- colors[sample(1:length(colors), vcount(g), replace = TRUE)]
+
+# Assign a size to each node randomly
+V(g)$size <- runif(vcount(g), 10, 30)
+
+png("/Users/denisostroushko/Desktop/pagedown_resume/myplot.png",  width=300, height=300)
+    
+    # Plot the graph
+    par(bg = sidebar_color , mar=c(0,0,0,0)+.01)
+    plot(g, vertex.color = V(g)$color, 
+         vertex.size = V(g)$size * .75, 
+         vertex.label = NA,
+         edge.color = adjustcolor("black", alpha = .5), 
+         edge.size = 1000, 
+         edge.width = 2, 
+         bg = sidebar_color)
+
+dev.off()
+
 ```
 
 ```{r echo = FALSE, out.width = "100%"}
@@ -147,8 +183,7 @@ Analytical Skills
 * Causal Inference 
 * Predictive Modeling 
 * Non-parametric Methods 
-* Analysis of Estimators
-* Big Claims and Insurance Data
+* Evaluation of Estimators and Bias-Variance
 
 Data Sceince 
 ------------------------------------
@@ -157,8 +192,7 @@ Data Sceince
 * Interactive ShinyApps 
 * `ggplot` visualizations  
 * Source data-to-report pipelines  
-
-
+* Big Claims and Insurance Data
 
 $~$  
 *Document powered by* `pagedown`
@@ -184,8 +218,7 @@ Minneapolis, MN <!-- second position is always a location -->
 Present - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
 
 <!-- This is the body of a bullet point pretty much --> 
-Best use plain Text for Text Management
-
+<!-- we can leave this open --> 
 ### University of Minnesota - Morris 
 
 **BA Mathematics, Statistics** 3.43 GPA
@@ -240,11 +273,11 @@ Morris, MN
 Communication Experience {data-icon=book}
 ------------------------------------
 
-### Publications and Software
+### Publications `r fa("align-left", fill = "#20C073")` and Software `r fa("r-project", fill = "steelblue")`
 
-$~$
+N/A
 
-$~$
+N/A <!-- adding N/A removes location sign, which is pretty cool --> 
 
 Present - 2020
 

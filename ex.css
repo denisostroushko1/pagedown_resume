@@ -13,7 +13,8 @@ Marker Felt	 FROM FANTASY
 
     /* unvisited link */
     a:link {
-      color: #36454f;
+      /*color: #36454f;*/
+      color: #0390fc;
     }
     
     /* visited link */
@@ -35,7 +36,7 @@ Marker Felt	 FROM FANTASY
 
 
 
-/* Main text is monserrat*/
+/* Main text font*/
 body {
   font-family: 'Gotham Book', sans-serif;
   font-weight: 300;
@@ -43,7 +44,7 @@ body {
   color: #36454f;
 }
 
-/* Give headers playfair font */
+/* Give headers font */
 h1,
 h2,
 h3 {
@@ -63,9 +64,11 @@ sup {
 }
 
 * {
-  /* Override default right margin for sidebar*/
+  /* Override default right margin for sidebar and top/bottom*/
   --pagedjs-margin-right: 0.2in;
   --pagedjs-margin-left: 0.2in;
+  --pagedjs-margin-top: 0.2in;
+  --pagedjs-margin-bottom: 0.2in;
 }
 
 /* Customize some of the sizing variables */

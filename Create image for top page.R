@@ -74,7 +74,7 @@ V(g)$color <- colors[sample(1:length(colors), vcount(g), replace = TRUE)]
 # Assign a size to each node randomly
 V(g)$size <- runif(vcount(g), 10, 30)
 
-png("/Users/denisostroushko/Desktop/pagedown_resume/myplot.png",  width=1000, height=1000)
+png("/Users/denisostroushko/Desktop/pagedown_resume/myplot.png",  width=300, height=1000)
     
     # Plot the graph
     par(bg = "#A2E4B8")

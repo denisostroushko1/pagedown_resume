@@ -141,7 +141,7 @@ build_skill_bars(
 ```
 
 $~$  
-<p style="text-align:center; color:#C8C8C8">*Document powered by* `pagedown`</p> 
+<p style="text-align:center; color:#000000">*Document powered by* `pagedown`</p> 
 
 Main
 ====================================
@@ -149,51 +149,73 @@ Main
 Denis Ostroushko {#title}
 ------------------------------------
 
-Education 
+Education {data-icon=graduation-cap}
 ------------------------------------
 
 ### University of Minnesota  
+<!--bullet point  is above --> 
+**MS Biostatistics** 3.815 GPA  <!-- first entry, major and degree in bold. THIS IS A Subtitle--> 
 
-*MS Biostatistics* 3.815 GPA
-
-Minneapolis, MN
+Minneapolis, MN <!-- second position is always a location --> 
  
 Present - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
 
+<!-- This is the body of a bullet point pretty much --> 
+Best use plain Text for Text Management
+
 ### University of Minnesota - Morris 
 
-*BA Mathematics, Statistics* 3.43 GPA
+**BA Mathematics, Statistics** 3.43 GPA
 
 Morris, MN 
 
 2019 - 2015 
 
-Selected Positions 
+Selected Experience {data-icon=tablet} 
 ------------------------------------
 
-### Research Assistant  
+### Healthcare Analyst II 
 
-$~$  
+**Medica**
 
-University of Minnesota  
+Minneapolis, MN 
 
-Present - 2020  
+Present - 2021 <!-- Date new to date old --> 
 
-<font size=2>**STRIVE Clinical Trial**</font> (2022)  
-Created an Augmented Inverse Probability Weighted estimator that increased efficiency & power of interim analyses in COVID trials.  
+<!-- now use a list of bullet points to decribe achievements --> 
+- Collaborated with business owners to evaluate and improve programs assisting members. Used statistical
+models and simulations to understand variance of cost savings estimates. Collaboratively developed a strategy 
+to generate additional $1,000,000 annualized savings. 
+- Translated actuarial completion factors from spreadsheets to SAS code for automation purposes. Reduced delivery time 
+of monthly completion factors from a few days to a few hours. Implemented a more granular way to estimate these factors, 
+resulting in 35% prediction error reduction. 
+- Collaborated with member identification team to develop a predictive model for members at risk of a 30-day hospital 
+readmission. Collectively improved AUC score from 0.72 to 0.79. 
 
+### Healthcare Analyst I 
 
-Communication Experience
+**Medica** 
+
+Minneapolis, MN 
+
+2021 - 2019 
+
+- Refactored legacy SAS and SQL pipeline for monthly large data set processing. Reduced total tun time by 60%. Introduced  QA checks. <!-- make sure there is no empty line between bullet points so that they render properly in the document --> 
+- Produced static and interactive dashboards to visualize and summarize healthcare cost and utilization data for physician services and nursing teams. Automated reports saved 10 hours of manual editing each month.
+- Lead the effort to introduce metrics from Milliman proprietary software. New metrics were used for cost savings opportunity identification and lead to more active business units engagement. 
+
+### Research Assistant
+<!-- make a hyperlink for the truckers and turnover research project --> 
+[Truckers & Turnover Research Project](https://morris.umn.edu/academics/truckers-turnover-research-project)
+
+Morris, MN 
+
+2019 - 2018
+
+- Managed scripts to produce publication materials. Presented results of medical cost analysis for truck drivers with OSA as a poster. Helped develop a bootstrap simulation to estimate variance of cost difference. 
+
+Publications
 ------------------------------------
 
-### Presentations & `r  Publications  
-
-$~$  
-
-$~$  
-
-2021 - 2016 
-
-- *A Random Covariance Model for Task-Based Neurofeedback Study of Adolescent Depression* (JSM, 2022)
 
 

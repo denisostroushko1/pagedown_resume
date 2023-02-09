@@ -143,22 +143,28 @@ build_skill_bars(
 Analytical Skills
 ------------------------------------
 
-Statistical Modeling and Inference
-Causal Inference 
-Predictive Modeling 
-Non-parametric Methods
-Analysis of Estimators 
-Big Claims and Insurance Data
+* Statistical Modeling and Inference 
+* Causal Inference 
+* Predictive Modeling 
+* Non-parametric Methods 
+* Analysis of Estimators
+* Big Claims and Insurance Data
 
 Data Sceince 
 ------------------------------------
-Static Flexdashboards 
-Interactive ShinyApps
-`ggplot` visualizations 
-Source data-to-report pipelines 
+
+* Static Flexdashboards 
+* Interactive ShinyApps 
+* `ggplot` visualizations  
+* Source data-to-report pipelines  
+
+
 
 $~$  
-<p style="text-align:center; color:#000000">*Document powered by* `pagedown`</p> 
+*Document powered by* `pagedown`
+Source code in [Git](https://github.com/denisostroushko1/pagedown_resume) 
+
+Last updated on `r format(Sys.Date(), "%m/%d/%Y")`
 
 Main
 ====================================
@@ -188,7 +194,7 @@ Morris, MN
 
 2019 - 2015 
 
-Selected Experience {data-icon=tablet} 
+Selected Experience {data-icon=suitcase} 
 ------------------------------------
 
 ### Healthcare Analyst II 

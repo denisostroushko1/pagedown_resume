@@ -11,6 +11,7 @@ output:
   html_document:
     df_print: paged
     toc: yes
+  knit: pagedown::chrome_print
 ---
 
 ```{r setup, include = FALSE, warning = FALSE, message = FALSE}
@@ -83,7 +84,7 @@ V(g)$color <- colors[sample(1:length(colors), vcount(g), replace = TRUE)]
 # Assign a size to each node randomly
 V(g)$size <- runif(vcount(g), 10, 30)
 
-png("/Users/denisostroushko/Desktop/pagedown_resume/myplot.png",  width=300, height=300)
+png("./myplot.png",  width=300, height=300)
     
     # Plot the graph
     par(bg = sidebar_color , mar=c(0,0,0,0)+.01)
@@ -100,7 +101,7 @@ dev.off()
 ```
 
 ```{r echo = FALSE, out.width = "100%"}
-include_graphics("/Users/denisostroushko/Desktop/pagedown_resume/myplot.png") 
+include_graphics("./myplot.png") 
 ```
 Contact Info
 ------------------------------------  
@@ -205,6 +206,11 @@ Main
 
 Denis Ostroushko {#title}
 ------------------------------------
+
+<!-- if a resume needs a header than include it here --> 
+
+I am an experienced data analyst with over three years of experience working with healthcare and cost data.  
+
 
 Education {data-icon=graduation-cap}
 ------------------------------------

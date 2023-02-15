@@ -218,7 +218,7 @@ Education {data-icon=graduation-cap}
 
 Minneapolis, MN <!-- second position is always a location --> 
  
-Present - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
+Expected  2024 - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
 
 <!-- This is the body of a bullet point pretty much --> 
 <!-- we can leave this open --> 

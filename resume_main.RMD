@@ -230,6 +230,8 @@ Morris, MN
 
 2019 - 2015 
 
+
+
 Selected Experience {data-icon=suitcase} 
 ------------------------------------
 
@@ -273,6 +275,7 @@ Morris, MN
 
 - Managed scripts to produce publication materials. Presented results of medical cost analysis for truck drivers with OSA as a poster. Helped develop a bootstrap simulation to estimate variance of cost difference. 
 
+<!-- 
 Communication Experience {data-icon=book}
 ------------------------------------
 
@@ -282,7 +285,11 @@ N/A
 
 N/A <!-- adding N/A removes location sign, which is pretty cool --> 
 
+<!--
 Present - 2020
 
 - ["ShinyApp - Market Analysis.(2021)"](https://coingalaxy.shinyapps.io/super_secret_db/)
 - ["The Pre-Registry Commercial Driver Medical Examination: Screening Sensitivity and Certification Lengths for Two Safety-Related Medical Conditions.(2019)"](https://pubmed.ncbi.nlm.nih.gov/31977920/)
+
+--> 
+

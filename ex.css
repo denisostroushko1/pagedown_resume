@@ -109,16 +109,22 @@ sup {
   padding-left: 1rem;
 }
 
+.aside ul {
+  list-style: disc;
+}
+
 .aside li::before {
   position: relative;
   margin-left: -4.25pt;
+  margin-top: 1pt;
   content: "• ";
 }
 
 /* Make sure elements in asside are centered and have a nice small text */
 .aside {
+  margin-top: 0;
   width: calc(var(--sidebar-width) + 9px);
-  line-height: 1.2;
+  line-height: 1;
   font-size: 0.75rem;
 }
 
@@ -135,7 +141,7 @@ sup {
 .skill-bar {
   color: white;
   padding: 0.1rem 0.25rem;
-  margin-top: 3px;
+  margin-top: 1px;
   position: relative;
   width: 100%;
 }
@@ -167,3 +173,33 @@ svg {
 }
 
 
+.sidebar ul {
+  list-style: none;
+  padding-left: 20px;
+  font-family: 'Gotham Book', sans-serif;
+  color: #36454f;
+}
+
+.sidebar li::before {
+  content: "-";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-family: 'Gotham Book', sans-serif;
+  color: #36454f;
+  
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  flex: 1;
+  /* Main section styles */
+}
+
+.sidebar {
+  font-family: "Arial", sans-serif; /* Change to desired font */
+  white-space: pre-wrap;
+}

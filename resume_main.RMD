@@ -180,20 +180,28 @@ build_skill_bars(
 Analytical Skills
 ------------------------------------
 
-* Statistical Modeling and Inference 
-* Causal Inference 
-* Predictive Modeling 
-* Non-parametric Methods 
-* Evaluation of Estimators and Bias-Variance
+<div>
+  <b>*-*</b> Statistical Modeling and Inference  <br>
+  <b>*-*</b> Predictive Modeling  with Modern <br>&nbsp;&nbsp;ML Methods <br>
+  <b>*-*</b> Non-parametric Methods   <br>
+  <b>*-*</b> Evaluation of Estimators and <br> &nbsp;&nbsp;Bootstrapping <br>
+  <b>*-*</b> Bias-Variance Decomposition <br> &nbsp;&nbsp;and Model Calibration <br>
+</div>
 
-Data Sceince 
+Data Science Skills
 ------------------------------------
 
-* Static Flexdashboards 
-* Interactive ShinyApps 
-* `ggplot` visualizations  
-* Source data-to-report pipelines  
-* Big Claims and Insurance Data
+<div>
+  <b>*-*</b> Static Flexdashboards   <br>
+  <b>*-*</b> Interactive ShinyApps <br>
+  <b>*-*</b> `ggplot` and `plotly` Visualizations   <br>
+  <b>*-*</b> Efficient Pipelines From <br>&nbsp;&nbsp;Source Data to Data Products   <br>
+  <b>*-*</b> Big Claims and Insurance Data <br>
+  <b>*-*</b> Strong RX, CPT, Diagnosis, <br>&nbsp;&nbsp;E/M Codes Understanding <br>
+  <b>*-*</b> Claims Timeline Recreation and <br>&nbsp;&nbsp;Event Ordering Ability From <br>&nbsp;&nbsp;Data Records <br>
+</div>
+
+
 
 $~$  
 *Document powered by* `pagedown`
@@ -214,7 +222,7 @@ Education {data-icon=graduation-cap}
 
 ### University of Minnesota  
 <!--bullet point  is above --> 
-**MS Biostatistics** 3.815 GPA  <!-- first entry, major and degree in bold. THIS IS A Subtitle--> 
+**MS Biostatistics** 3.867 GPA  <!-- first entry, major and degree in bold. THIS IS A Subtitle--> 
 
 Minneapolis, MN <!-- second position is always a location --> 
  

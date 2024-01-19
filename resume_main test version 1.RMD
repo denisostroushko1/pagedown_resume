@@ -266,11 +266,12 @@ Minneapolis, MN
 Present - August 2023 
 
 - Worked with [Dr. Julian Wolfson](https://sites.google.com/umn.edu/julianw) to evaluate the impact of cohort definition on 
-the analysis results. Used data from the Fairview Health System to conduct the study. Created a list of cohorts with varying patient inclusion criteria. Illustrated that cohort definition can result in vastly different analysis results and conclusions. 
+the analysis results. 
+- Used data from the Fairview Health System to conduct the study. Created a list of cohorts with varying patient inclusion criteria. Illustrated that cohort definition can result in vastly different analysis results and conclusions. 
 
 ### Graduate Research Assistant
 
-Research Group Name 
+Multiview Data Integrative Analysis of Progression to AD
 
 Minneapolis, MN 
 
@@ -280,7 +281,7 @@ Present - August 2023
 - Developed and compared multiview data integration methods (SIDA, iDeepViewLearn) to improve detection of at-risk of AD patients among ANDI cohort population. 
 
 ### Research Assistant
-<!-- make a hyperlink for the truckers and turnover research project --> 
+
 [Truckers & Turnover Research Project](https://morris.umn.edu/academics/truckers-turnover-research-project)
 
 Morris, MN 

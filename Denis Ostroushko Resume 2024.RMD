@@ -213,35 +213,43 @@ Denis Ostroushko {#title}
 
 <!-- if a resume needs a header than include it here --> 
 
-Education {data-icon=graduation-cap}
+Relevant Experience {data-icon=suitcase} 
 ------------------------------------
 
-### University of Minnesota  
-<!--bullet point  is above --> 
-**MS Biostatistics** 3.845 GPA  <!-- first entry, major and degree in bold. THIS IS A Subtitle--> 
-
-Minneapolis, MN <!-- second position is always a location --> 
- 
-Expected  2024 - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
-
-<!-- This is the body of a bullet point pretty much --> 
-<!-- we can leave this open --> 
-### University of Minnesota - Morris 
-
-**BA Mathematics, Statistics** 3.43 GPA
-
-Morris, MN 
-
-2019 - 2015 
+<!-- title  thingy --> 
 
 
+### Graduate Research Assistant
 
-Professional Experience {data-icon=suitcase} 
-------------------------------------
+University of Minnesota, Division of Biostatistics and <br> Health Data Science
 
-### Healthcare Analyst I & II 
+Minneapolis, MN 
 
-**Medica**
+Present - August 2023 
+
+*Master's Thesis*
+
+- Collaborated with [Dr. Julian Wolfson](https://sites.google.com/umn.edu/julianw) to evaluate the impact of cohort definition on 
+the analysis of progression time and rates to Alzheimer's Disease (AD). 
+- Leveraged data from the Fairview Health System to conduct a sensitivity analysis study of cohort definitions. Suggested inclusion criteria resulting in robust data and maximized sample size. 
+
+*Data Integration Predictive Methods for AD Identification*
+
+<!-- 
+- Collaborated with [Dr. Safo](https://sites.google.com/site/sandraaddosafo/) and [Dr. Chekouo ](https://directory.sph.umn.edu/bio/sph-a-z/thierry-chekouo) to utilize ADNI -omics data for identification of patients at risk of AD
+--> 
+- Leveraged regression and machine learning methods to develop a pipeline to identity variables most associated with AD presence. 
+- Generalized results to multiple -omics data sources, used novel ML methods for integrated data analysis to improve accuracy of predictions by 17% for at-risk of AD population
+
+<!--
+- Developed a pipeline to identify important predictors of Alzheimer's Disease (AD) from lipidomics ADNI data. Generalized pipeline to other genomics data sets.  
+- Developed and compared multiview data integration methods (SIDA, iDeepViewLearn) to improve detection of at-risk of AD patients among ANDI cohort population. 
+--> 
+
+
+### Medica
+
+*Healthcare Analyst II (2021-2023)*
 
 Minneapolis, MN 
 
@@ -249,37 +257,14 @@ August 2023 - June 2019 <!-- Date new to date old -->
 
 - Collaborated with business owners to assess member assistance programs. Used statistical models and simulations to understand cost savings distribution. Developed a strategy, resulting in an additional $1,000,000 annualized savings. 
 - Collaborated with member identification team to improve risk models for hospital readmission. Developed a set of predictive models. Best classifier improved AUC score by 15%. 
+
+*Healthcare Analyst I (2019-2021)*
+
 - Automated actuarial completion factors model using SAS. Improved estimation granularity, reduced prediction error by 35%. Reduced delivery time for the final product. 
 - Led the introduction of benchmarks from Milliman proprietary software. Improved identification of cost savings opportunities and increased strategy transparency.
 <!-- 
 - Inherited a sub optimal data pulling pipeline. Introduced more efficient SAS code for data collection. Developed a set of QA checks against historical data. Reduced run time by 8 hours (55% reduction). 
 --> 
-
-Research Experience {data-icon=book} 
-------------------------------------
-
-### Graduate Research Assistant
-
-Master's Thesis
-
-Minneapolis, MN 
-
-Present - August 2023 
-
-- Worked with [Dr. Julian Wolfson](https://sites.google.com/umn.edu/julianw) to evaluate the impact of cohort definition on 
-the analysis results. 
-- Used data from the Fairview Health System to conduct the study. Created a list of cohorts with varying patient inclusion criteria. Illustrated that cohort definition can result in vastly different analysis results and conclusions. 
-
-### Graduate Research Assistant
-
-Multiview Data Integrative Analysis of Progression to AD
-
-Minneapolis, MN 
-
-Present - August 2023 
-
-- Developed a pipeline to identify important predictors of Alzheimer's Disease (AD) from lipidomics ADNI data. Generalized pipeline to other genomics data sets.  
-- Developed and compared multiview data integration methods (SIDA, iDeepViewLearn) to improve detection of at-risk of AD patients among ANDI cohort population. 
 
 ### Research Assistant
 
@@ -290,6 +275,28 @@ Morris, MN
 2019 - 2018
 
 - Managed scripts to produce publication materials. Presented results of medical cost analysis for truck drivers with OSA as a poster. Helped develop a bootstrap simulation to estimate variance of cost differences. 
+
+
+Education {data-icon=graduation-cap}
+------------------------------------
+
+### University of Minnesota School of Public Health  
+<!--bullet point  is above --> 
+**MS Biostatistics**  <!-- first entry, major and degree in bold. THIS IS A Subtitle--> 
+
+Minneapolis, MN <!-- second position is always a location --> 
+ 
+Expected  2024 - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
+
+<!-- This is the body of a bullet point pretty much --> 
+<!-- we can leave this open --> 
+### University of Minnesota - Morris 
+
+**BA Mathematics, Statistics** *(Double Major)*
+
+Morris, MN 
+
+2019 - 2015 
 
 <!-- 
 Communication Experience {data-icon=book}

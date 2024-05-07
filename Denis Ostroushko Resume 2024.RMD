@@ -105,7 +105,7 @@ include_graphics("./myplot.png")
 Contact Info{#contact}
 ------------------------------------  
 
-<i class="fa fa-phone-alt"></i> +1-612-231-4949 <br>  <br> 
+<i class="fa fa-phone-alt"></i> +1-612-528-1163 <br>  <br> 
 <i class="fa fa-tablet-alt"></i> [denisostroushko1@gmail.com](mailto:denisostroushko1@gmail.com) <br>  <br> 
 <i class="fa fa-linkedin-square"></i> [LinkedIn Profile](https://www.linkedin.com/in/denis-ostroushko/) <br>  <br> 
 <i class="fa fa-sync"></i> [denisostroushko1.github.io](https://denisostroushko1.github.io) <br>  <br> 
@@ -213,70 +213,6 @@ Denis Ostroushko {#title}
 
 <!-- if a resume needs a header than include it here --> 
 
-Relevant Experience {data-icon=suitcase} 
-------------------------------------
-
-<!-- title  thingy --> 
-
-
-### Graduate Research Assistant
-
-University of Minnesota, Division of Biostatistics and <br> Health Data Science
-
-Minneapolis, MN 
-
-Present - August 2023 
-
-*Master's Thesis*
-
-- Collaborated with [Dr. Julian Wolfson](https://sites.google.com/umn.edu/julianw) to evaluate the impact of cohort definition on 
-the analysis of progression time and rates to Alzheimer's Disease (AD). 
-- Leveraged data from the Fairview Health System to conduct a sensitivity analysis study of cohort definitions. Suggested inclusion criteria resulting in robust data and maximized sample size. 
-
-*Data Integration Predictive Methods for AD Identification*
-
-<!-- 
-- Collaborated with [Dr. Safo](https://sites.google.com/site/sandraaddosafo/) and [Dr. Chekouo ](https://directory.sph.umn.edu/bio/sph-a-z/thierry-chekouo) to utilize ADNI -omics data for identification of patients at risk of AD
---> 
-- Leveraged regression and machine learning methods to develop a pipeline to identity variables most associated with AD presence. 
-- Generalized results to multiple -omics data sources, used novel ML methods for integrated data analysis to improve accuracy of predictions by 17% for at-risk of AD population
-
-<!--
-- Developed a pipeline to identify important predictors of Alzheimer's Disease (AD) from lipidomics ADNI data. Generalized pipeline to other genomics data sets.  
-- Developed and compared multiview data integration methods (SIDA, iDeepViewLearn) to improve detection of at-risk of AD patients among ANDI cohort population. 
---> 
-
-
-### Medica
-
-*Healthcare Analyst II (2021-2023)*
-
-Minneapolis, MN 
-
-August 2023 - June 2019 <!-- Date new to date old --> 
-
-- Collaborated with business owners to assess member assistance programs. Used statistical models and simulations to understand cost savings distribution. Developed a strategy, resulting in an additional $1,000,000 annualized savings. 
-- Collaborated with member identification team to improve risk models for hospital readmission. Developed a set of predictive models. Best classifier improved AUC score by 15%. 
-
-*Healthcare Analyst I (2019-2021)*
-
-- Automated actuarial completion factors model using SAS. Improved estimation granularity, reduced prediction error by 35%. Reduced delivery time for the final product. 
-- Led the introduction of benchmarks from Milliman proprietary software. Improved identification of cost savings opportunities and increased strategy transparency.
-<!-- 
-- Inherited a sub optimal data pulling pipeline. Introduced more efficient SAS code for data collection. Developed a set of QA checks against historical data. Reduced run time by 8 hours (55% reduction). 
---> 
-
-### Research Assistant
-
-[Truckers & Turnover Research Project](https://morris.umn.edu/academics/truckers-turnover-research-project)
-
-Morris, MN 
-
-2019 - 2018
-
-- Managed scripts to produce publication materials. Presented results of medical cost analysis for truck drivers with OSA as a poster. Helped develop a bootstrap simulation to estimate variance of cost differences. 
-
-
 Education {data-icon=graduation-cap}
 ------------------------------------
 
@@ -286,7 +222,7 @@ Education {data-icon=graduation-cap}
 
 Minneapolis, MN <!-- second position is always a location --> 
  
-Expected  2024 - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
+2024 - 2022  <!-- dates have to be listed as Newer - Older in the pagedown format --> 
 
 <!-- This is the body of a bullet point pretty much --> 
 <!-- we can leave this open --> 
@@ -298,21 +234,92 @@ Morris, MN
 
 2019 - 2015 
 
-<!-- 
-Communication Experience {data-icon=book}
+Research Experience {data-icon=pencil} 
 ------------------------------------
 
-### Publications `r fa("align-left", fill = "#20C073")` and Software `r fa("r-project", fill = "steelblue")`
+<!-- title  thingy --> 
+
+
+### Graduate Research Assistant
+
+University of Minnesota, Division of Biostatistics 
+
+Minneapolis, MN 
+
+May 2024 - August 2023 
+
+*Master's Thesis*
+
+- Conducted an observational study aimed at optimizing the definition of Mild Cognitive Impairment (MCI) and Alzheimer's Disease (AD) diagnoses using Fairview Electronic Health Records Data.
+- Conducted literature review and data exploration to develop precise definitions based on established inclusion/exclusion criteria and insights from data observations.
+- Proposed a sample optimized for inferential study purposes, laid the groundwork to study association between non-pharmaceutical interventions and MCI-to-AD progression
+
+*Data Integration Predictive Methods for AD Identification*
+
+- Implemented regression and machine learning methods to develop a pipeline identifying variables most associated with AD presence from multiple -omics data sets. 
+- Used SIDA, a novel data-integration method, for multi-view feature selection & inference in Alzheimer’s biomarker detection. 
+- Showed that use of multiple -omics data sets improves AUC by 10-20% when compared with individual view approaches. 
+
+
+Industry Experience {data-icon=suitcase} 
+------------------------------------
+
+### Medica
+
+*Healthcare Analyst II*
+
+Minneapolis, MN 
+
+August 2023 - June 2021 <!-- Date new to date old --> 
+
+- Led a study to assess a member assistance program. Developed a Cox model to understand average treatment effect. Showed that $1,000,000 annualized savings was a statistically significant figure. Used subgroup analysis to propose further improvement steps.  
+- Contributed to improvement of risk predictions for hospital readmission. Constructed data from claims in enrollment using SAS. Developed LASSO logistic regression and random forest models in R. Contributed to an improved model, increasing accuracy and AUC by 17% over previous production model. 
+- Designed a difference-in-differences study with propensity score matching for causal analysis of treatment intervention. Used bootstrap methods to get variance of estimators. Performed sample size and power calculations to suggest next steps for program improvement.  
+
+\pagebreak
+
+### Medica
+
+*Statistical Healthcare Analyst I (2019-2021)*
+
+Minneapolis, MN 
+
+June 2023 - June 2019 <!-- Date new to date old --> 
+
+- Automated actuarial completion factors model using SAS/SQL. Improved estimation granularity, reduced prediction error by 35%. Reduced delivery time for the final product from several business days to three hours. 
+- Consulted internal teams on ad-hoc analyses, inclusion/exclusion criteria, and inference from small samples of data to promote further pursuit of initiatives.
+-  Developed analysis ready data sets from claims and enrollment data, distributed data sets to collaborators. Extracted analysis
+features from ICD, CPT, DRG, RX codes. Automated text processing using SAS and R software to extract additional
+information.
+- Led the introduction of benchmarks from Milliman proprietary software. Improved identification of cost savings opportunities and increased strategy transparency.
+- Routinely performed medical cost and utilization trend analysis. Contributed to high-level business oriented presentations with insightful summary statements, origins of observations, and data visualizations created in R using ggplot. 
+
+Personal Projects {data-icon=computer} 
+------------------------------------
+
+### Interactive Analysis of Soccer Data 
 
 N/A
 
-N/A <!-- adding N/A removes location sign, which is pretty cool --> 
+N/A
 
-<!--
-Present - 2020
+Present - April 2023 
 
-- ["ShinyApp - Market Analysis.(2021)"](https://coingalaxy.shinyapps.io/super_secret_db/)
-- ["The Pre-Registry Commercial Driver Medical Examination: Screening Sensitivity and Certification Lengths for Two Safety-Related Medical Conditions.(2019)"](https://pubmed.ncbi.nlm.nih.gov/31977920/)
+- Continuously working on my [interactive app](https://kexite.shinyapps.io/fb_ref_dashboard/) to summarize player-level match data from [FBRef.com](https://fbref.com/en/). Automated daily data update using [github actions](https://github.com/denisostroushko1/soccer_dashboard) and storage of data in AWS S3. 
+- Developed interactive UI using `ShinyApp` functionality in R.
+- Created summary reports using aggregated statistics, ranked data, and interactive `plotly` data visualization. 
+- Used high-dimensional aggregate season-level data  to study player similarity. Adapted and developed multiple versions of similarity metrics based on euclidean and weighted distance between data points in high dimensional space. 
+- Working on Bayesian hierarchical level models to study distributions of observed player statistics. Aiming to use these studies to develop detailed scouting reports. 
 
---> 
+### Interactive Analysis of Financial Markets
 
+N/A
+
+N/A
+
+Present - April 2021 
+
+- Developed a [dashboard](https://kexite.shinyapps.io/01_Deployment/) to summarize and visualize time-series financial data from cryptocurrency markers. 
+- Developed interactive UI using `ShinyApp` functionality in R. Automated data update using [github actions](https://github.com/denisostroushko1/crypto_data_update), api tools, and AWS S3 data storage. Code for the app is not public yet. 
+- Implemented analysis of moving averages, RSI, volatility patterns, and other common financial market analysis tools to gauge insights from historical data. 
+- Developed a version of a risk detection model for each asset type. Risk model summarizes current market data and volatility patterns to identify periods of severe over- and under-valuations of cryptocurrency assets. 
